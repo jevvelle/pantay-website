@@ -11,7 +11,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="pages.css">
 <script src="script.js" defer></script>
+<script src="pages.js" defer></script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to main content</a>
@@ -19,11 +21,9 @@
 <header class="site-header" id="hdr">
   <div class="wrap bar">
     <a href="/" class="brand-logo-link"><img src="assets/logo-pantay.png" alt="PANTAY Logo" class="brand-logo" /></a>
-    <nav class="nav" aria-label="Primary"><a href="/" aria-current="page">Home</a><a href="about.html">About</a><a href="what-we-do.html">What We Do</a><a href="programs.html">Programs</a><a href="resources.html">Resources</a></nav>
+    <nav class="nav" aria-label="Primary"><a href="/">Home</a><a href="about.html">About</a><a href="what-we-do.html">What We Do</a><a href="programs.html" aria-current="page">Programs</a><a href="resources.html">Resources</a></nav>
     <a class="btn primary sm" href="get-involved.html">Get Involved</a>
-    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="drawer">
-      <svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M3 6h16M3 11h16M3 16h16"/></svg>
-    </button>
+    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="drawer"><svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M3 6h16M3 11h16M3 16h16"/></svg></button>
   </div>
 </header>
 
@@ -31,7 +31,7 @@
 <aside class="drawer" id="drawer" role="dialog" aria-modal="true" aria-label="Site menu" inert>
   <div class="drawer-top"><span class="tagline">dahil pantay tayo</span>
     <button class="burger" id="close" aria-label="Close menu"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M4 4l12 12M16 4L4 16"/></svg></button></div>
-  <nav aria-label="Mobile"><a href="/">Home</a><a href="about.html">About</a><a href="what-we-do.html">What We Do</a><a href="programs.html">Programs</a><a href="resources.html">Resources</a></nav>
+  <nav aria-label="Mobile"><a href="/">Home</a><a href="about.html">About</a><a href="what-we-do.html">What We Do</a><a href="programs.html" aria-current="page">Programs</a><a href="resources.html">Resources</a></nav>
   <a class="btn primary" href="get-involved.html">Get Involved</a>
 </aside>
 
@@ -41,21 +41,17 @@
   <p class="eyebrow">Impact</p>
   <h1>PANTAY 1 Decade Impact</h1>
   <p class="lede">Ten years of building people, organizations, evidence, and political leadership.</p>
-</div></section>
-<div class="wrap art" style="grid-template-columns:1fr"><article><div class="art-photo" role="img" aria-label="Placeholder for article photo"><span>[PHOTO] Article photo</span></div><p>For 10 years, PANTAY has built the people, organizations, evidence, and political leadership needed to turn equality from an advocacy demand into action in schools, communities, local governments, and national policy spaces.</p></article></div>
-<section class="impact on-dark" aria-labelledby="h2i"><div class="wrap"><h2 id="h2i">Our Impact</h2><div class="stats" id="stats" tabindex="0" role="region" aria-label="Impact statistics, scrollable"><article class="stat lift" data-n="10" data-suf=" Years"><p class="num" aria-label="10 Years"><span aria-hidden="true">10 Years</span></p><p class="lbl">Empowering Young People and LGBTIQ+ Filipinos to Advance Safer, More Inclusive Communities</p></article>
-      <article class="stat lift" data-n="2000" data-suf="+"><p class="num" aria-label="2,000+"><span aria-hidden="true">2,000+</span></p><p class="lbl">Young people directly engaged through leadership, education, SRHR, mental health, and advocacy initiatives</p></article>
-      <article class="stat lift" data-n="50" data-suf="+"><p class="num" aria-label="50+"><span aria-hidden="true">50+</span></p><p class="lbl">Schools and universities engaged to advance inclusive education, health, dignity, and student leadership</p></article>
-      <article class="stat lift" data-n="40"><p class="num" aria-label="40"><span aria-hidden="true">40</span></p><p class="lbl">LGBTIQ+ elected officials nationwide from the POWER Fellows Network trained on inclusive governance</p></article>
-      <article class="stat lift" data-n="356"><p class="num" aria-label="356"><span aria-hidden="true">356</span></p><p class="lbl">Volunteers and youth advocates contributing to PANTAY’s nationwide movement</p></article>
-      <article class="stat lift" data-n="70" data-pre="PHP " data-suf="M+"><p class="num" aria-label="PHP 70M+"><span aria-hidden="true">PHP 70M+</span></p><p class="lbl">Worth of funding and support mobilized since 2022 to empower young people and LGBTIQ+ communities</p></article>
-      <article class="stat lift" data-n="100" data-suf="+"><p class="num" aria-label="100+"><span aria-hidden="true">100+</span></p><p class="lbl">Community organizations mobilized through capacity-building, partnerships, networks, and movement-building initiatives</p></article>
-      <article class="stat lift" data-n="80" data-suf="+"><p class="num" aria-label="80+"><span aria-hidden="true">80+</span></p><p class="lbl">Organizations and individuals supported through subgrants to strengthen community-led equality advocacy</p></article>
-      <article class="stat lift" data-n="20" data-suf="+"><p class="num" aria-label="20+"><span aria-hidden="true">20+</span></p><p class="lbl">Local governments directly supported to strengthen SOGIESC-inclusive governance and implementation</p></article>
-      <article class="stat lift" data-n="20" data-suf="+ Million"><p class="num" aria-label="20+ Million"><span aria-hidden="true">20+ Million</span></p><p class="lbl">People engaged through digital campaigns and online advocacy, expanding equality narratives beyond traditional LGBTIQ+ spaces</p></article></div></div></section>
-<section class="next"><div class="wrap"><h2>More Programs</h2><div class="cards two"><a class="card lift" href="geis.html"><span class="cat">GEIS</span><h3>Gender Equality Index in Schools</h3><span class="more">Learn about GEIS</span></a><a class="card lift" href="power.html"><span class="cat">POWER!</span><h3>Progressive Officials Working for Equality and Rights</h3><span class="more">Learn about POWER!</span></a></div></div></section>
-</main>
-
+</div></section><div class="wrap art" style="grid-template-columns:1fr"><article><div class="art-photo" role="img" aria-label="Placeholder for article photo"><span>[PHOTO] Article photo</span></div><p>For 10 years, PANTAY has built the people, organizations, evidence, and political leadership needed to turn equality from an advocacy demand into action in schools, communities, local governments, and national policy spaces.</p></article></div><section class="impact on-dark" aria-labelledby="h2i"><div class="wrap"><h2 id="h2i">Our Impact</h2><div class="stats" id="stats" tabindex="0" role="region" aria-label="Impact statistics, scrollable"><article class="stat lift" data-n="10" data-suf=" Years"><p class="num" aria-label="10 Years"><span aria-hidden="true">10 Years</span></p><p class="lbl">Empowering Young People and LGBTIQ+ Filipinos to Advance Safer, More Inclusive Communities</p></article>
+<article class="stat lift" data-n="2000" data-suf="+"><p class="num" aria-label="2,000+"><span aria-hidden="true">2,000+</span></p><p class="lbl">Young people directly engaged through leadership, education, SRHR, mental health, and advocacy initiatives</p></article>
+<article class="stat lift" data-n="50" data-suf="+"><p class="num" aria-label="50+"><span aria-hidden="true">50+</span></p><p class="lbl">Schools and universities engaged to advance inclusive education, health, dignity, and student leadership</p></article>
+<article class="stat lift" data-n="40"><p class="num" aria-label="40"><span aria-hidden="true">40</span></p><p class="lbl">LGBTIQ+ elected officials nationwide from the POWER Fellows Network trained on inclusive governance</p></article>
+<article class="stat lift" data-n="356"><p class="num" aria-label="356"><span aria-hidden="true">356</span></p><p class="lbl">Volunteers and youth advocates contributing to PANTAY’s nationwide movement</p></article>
+<article class="stat lift" data-n="70" data-pre="PHP " data-suf="M+"><p class="num" aria-label="PHP 70M+"><span aria-hidden="true">PHP 70M+</span></p><p class="lbl">Worth of funding and support mobilized since 2022 to empower young people and LGBTIQ+ communities</p></article>
+<article class="stat lift" data-n="100" data-suf="+"><p class="num" aria-label="100+"><span aria-hidden="true">100+</span></p><p class="lbl">Community organizations mobilized through capacity-building, partnerships, networks, and movement-building initiatives</p></article>
+<article class="stat lift" data-n="80" data-suf="+"><p class="num" aria-label="80+"><span aria-hidden="true">80+</span></p><p class="lbl">Organizations and individuals supported through subgrants to strengthen community-led equality advocacy</p></article>
+<article class="stat lift" data-n="20" data-suf="+"><p class="num" aria-label="20+"><span aria-hidden="true">20+</span></p><p class="lbl">Local governments directly supported to strengthen SOGIESC-inclusive governance and implementation</p></article>
+<article class="stat lift" data-n="20" data-suf="+ Million"><p class="num" aria-label="20+ Million"><span aria-hidden="true">20+ Million</span></p><p class="lbl">People engaged through digital campaigns and online advocacy, expanding equality narratives beyond traditional LGBTIQ+ spaces</p></article>
+</div></div></section><section class="next"><div class="wrap"><h2>More Programs</h2><div class="cards two"><a class="card lift" href="geis.html"><span class="cat">GEIS</span><h3>Gender Equality Index in Schools</h3><span class="more">Learn about GEIS</span></a><a class="card lift" href="power.html"><span class="cat">POWER!</span><h3>Progressive Officials Working for Equality and Rights</h3><span class="more">Learn about POWER!</span></a></div></div></section>
 </main>
 
 <footer>
