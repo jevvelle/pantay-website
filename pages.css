@@ -75,3 +75,17 @@
 .fld [aria-invalid=true]{border-color:#8A0A42;box-shadow:0 0 0 1px #8A0A42}
 .pform .btn{justify-self:start}
 #pf-msgout{font-weight:700;font-size:.9rem;margin:.25rem 0 0}
+
+/* ===== FIXES + PHOTO SLOTS ===== */
+/* .art in styles.css zeroed the side padding that .wrap sets */
+.wrap.art{padding-left:1.5rem;padding-right:1.5rem}
+.split{display:grid;gap:2rem;align-items:center}
+@media (min-width:56rem){.split{grid-template-columns:1.2fr 1fr;gap:3.5rem}}
+.split .art-photo{margin:0}
+.strip{display:grid;gap:1rem}
+@media (min-width:45rem){.strip{grid-template-columns:repeat(3,1fr)}}
+.strip .art-photo{margin:0;border-radius:14px}
+.pil .art-photo{border-radius:14px;margin-bottom:1.5rem}
+.story.news .ph-link{display:block;border-radius:12px}
+.story.news .meta{margin-bottom:.9rem}
+.more-link{display:inline-block;padding-bottom:.15rem;border-bottom:2px solid var(--magenta);color:var(--magenta);font:700 .85rem var(--sans);text-decoration:none}
